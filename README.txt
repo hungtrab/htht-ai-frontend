@@ -1,0 +1,5 @@
+After clone, run:
+
+npx shadcn@latest add button card badge tabs input label textarea
+
+npm install lucide-react
