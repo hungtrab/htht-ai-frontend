@@ -1,7 +1,7 @@
 import Navbar from "@/components/navbar"
 import HeroSection from "@/components/hero-section"
 import CoursesSection from "@/components/courses-section"
-import MockTestSection from "@/components/mock-test-section"
+// import MockTestSection from "@/components/mock-test-section"
 import StorySection from "@/components/story-section"
 import AuthSection from "@/components/auth-section"
 import ContactSection from "@/components/contact-section"
@@ -14,7 +14,6 @@ export default function Home() {
       <main>
         <HeroSection />
         <CoursesSection />
-        <MockTestSection />
         <StorySection />
         <AuthSection />
       </main>
