@@ -4,7 +4,6 @@ import CoursesSection from "@/components/courses-section"
 // import MockTestSection from "@/components/mock-test-section"
 import StorySection from "@/components/story-section"
 import AuthSection from "@/components/auth-section"
-import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 
 export default function Home() {
