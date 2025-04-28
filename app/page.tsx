@@ -1,11 +1,11 @@
-import Navbar from "@/components/navbar"
-import HeroSection from "@/components/hero-section"
-import CoursesSection from "@/components/courses-section"
-import MockTestSection from "@/components/mock-test-section"
-import StorySection from "@/components/story-section"
-import AuthSection from "@/components/auth-section"
-import ContactSection from "@/components/contact-section"
-import Footer from "@/components/footer"
+import Navbar from "@/app/components/navbar"
+import HeroSection from "@/app/components/hero-section"
+import CoursesSection from "@/app/components/courses-section"
+import MockTestSection from "@/app/components/mock-test-section"
+import StorySection from "@/app/components/story-section"
+import AuthSection from "@/app/components/auth-section"
+import ContactSection from "@/app/components/contact-section"
+import Footer from "@/app/components/footer"
 
 export default function Home() {
   return (
