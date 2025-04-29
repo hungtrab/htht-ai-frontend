@@ -12,7 +12,7 @@ export default function StorySection() {
           <div className="flex flex-col justify-center space-y-4">
             <Badge
               variant="outline"
-              className="w-fit border-orange-200 bg-orange-100 text-orange-800 hover:bg-orange-100"
+              className="w-fit border-amber-200 bg-amber-100 text-amber-800 hover:bg-amber-100"
             >
               Câu Chuyện
             </Badge>
@@ -35,8 +35,8 @@ export default function StorySection() {
               chúng tôi đang mở rộng các khóa học để tiếp cận nhiều học viên hơn trực tuyến.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button className="bg-orange-600 hover:bg-orange-700">Tham Gia Sứ Mệnh</Button>
-              <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50">
+              <Button className="bg-amber-600 hover:bg-amber-700">Tham Gia Sứ Mệnh</Button>
+              <Button variant="outline" className="border-amber-600 text-amber-600 hover:bg-amber-50">
                 Trở Thành Tình Nguyện Viên
               </Button>
             </div>
@@ -92,36 +92,36 @@ export default function StorySection() {
         </div>
 
         <div className="mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <Card className="bg-orange-50 border-orange-100">
+          <Card className="bg-amber-50 border-amber-100">
             <CardContent className="p-6 flex flex-col items-center text-center">
-              <Heart className="h-12 w-12 text-orange-600 mb-4" />
+              <Heart className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Sứ Mệnh</h3>
               <p className="text-gray-600">
                 Cung cấp giáo dục toán học miễn phí, chất lượng cao cho bất kỳ ai muốn học.
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-orange-50 border-orange-100">
+          <Card className="bg-amber-50 border-amber-100">
             <CardContent className="p-6 flex flex-col items-center text-center">
-              <Users className="h-12 w-12 text-orange-600 mb-4" />
+              <Users className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">1.000+ Sinh Viên</h3>
               <p className="text-gray-600">
                 Chúng tôi đã giúp hơn một nghìn sinh viên tại HUST thành công trong toán học.
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-orange-50 border-orange-100">
+          <Card className="bg-amber-50 border-amber-100">
             <CardContent className="p-6 flex flex-col items-center text-center">
-              <BookOpen className="h-12 w-12 text-orange-600 mb-4" />
+              <BookOpen className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">4 Khóa Học</h3>
               <p className="text-gray-600">
                 Các khóa học toàn diện về giải tích và đại số được giảng dạy bởi các tình nguyện viên đầy nhiệt huyết.
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-orange-50 border-orange-100">
+          <Card className="bg-amber-50 border-amber-100">
             <CardContent className="p-6 flex flex-col items-center text-center">
-              <Award className="h-12 w-12 text-orange-600 mb-4" />
+              <Award className="h-12 w-12 text-amber-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">100% Miễn Phí</h3>
               <p className="text-gray-600">
                 Tất cả các khóa học và tài nguyên của chúng tôi đều hoàn toàn miễn phí cho mọi người.

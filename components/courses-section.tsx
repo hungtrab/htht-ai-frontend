@@ -53,7 +53,7 @@ export default function CoursesSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <Badge variant="outline" className="border-orange-200 bg-orange-100 text-orange-800 hover:bg-orange-100">
+            <Badge variant="outline" className="border-amber-200 bg-amber-100 text-amber-800 hover:bg-amber-100">
               Khóa Học
             </Badge>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Khóa Học Toán Miễn Phí</h2>
@@ -68,7 +68,7 @@ export default function CoursesSection() {
             <Card key={course.id} className="overflow-hidden transition-all hover:shadow-lg">
               <div className="aspect-video relative">
                 <Image src={course.image || "/placeholder.svg"} alt={course.title} fill className="object-cover" />
-                <Badge className="absolute top-2 right-2 bg-orange-600">{course.level}</Badge>
+                <Badge className="absolute top-2 right-2 bg-amber-600">{course.level}</Badge>
               </div>
               <CardHeader>
                 <CardTitle>{course.title}</CardTitle>
@@ -91,7 +91,7 @@ export default function CoursesSection() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700">
+                <Button className="w-full bg-amber-600 hover:bg-amber-700">
                   Đăng Ký Ngay
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -101,7 +101,7 @@ export default function CoursesSection() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50">
+          <Button variant="outline" className="border-amber-600 text-amber-600 hover:bg-amber-50">
             Xem Tất Cả Khóa Học
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
