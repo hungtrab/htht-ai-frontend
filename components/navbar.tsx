@@ -24,7 +24,7 @@ export default function Navbar() {
         </Link>
 
         <nav className="hidden md:flex gap-6">
-          <Link href="#courses" className="text-sm font-medium hover:text-amber-600 transition-colors">
+          <Link href="/courses" className="text-sm font-medium hover:text-amber-600 transition-colors">
             Khóa Học
           </Link>
           <Link href="#mock-test" className="text-sm font-medium hover:text-amber-600 transition-colors">
